@@ -1,0 +1,79 @@
+.distanison-container{
+    margin: 40px 0;
+}
+.distanison-container .heading{
+    margin: 40px 0;
+}
+.distanison-container .heading h2 {
+    font-size: 30px;
+   
+}
+.distanison-container>div .distanison-card{
+    display: flex;
+    gap: 20px;
+}
+.distanison-container>div .distanison-card .card{
+
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 20px;
+    width: 370px;
+}
+.distanison-card .img {
+    width: 100% ;
+}
+.distanison-card .card>div{
+    padding: 20px;
+}
+.distanison-card .card>div>div{
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+.distanison-card .card>div>div h4{
+    font-size: 16px;
+}
+.distanison-card .card>div>div p{
+    color: #f85e9f;
+}
+.distanison-card .card>div p{
+    font-size: 13px;
+    color:
+#5F5F5F
+}
+.distanison-card .card>div .ratting {
+   margin-top: 20px;
+   display: flex;
+   margin-bottom: 0;
+   gap: 10px;
+}
+.distanison-card .card>div .ratting p{
+    font-weight: bolder;
+}
+
+@media only screen and (max-width:980px) {
+   
+    .distanison-container>div .distanison-card{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .distanison-container>div .distanison-card .card{
+
+        width: 100%;
+    }
+    .distanison-container{
+        margin: 40px auto;
+    }
+    .distanison-container .heading h4 {
+        
+        text-align: center;
+    }
+    .distanison-container .heading h2 {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

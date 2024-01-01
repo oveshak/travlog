@@ -1,0 +1,125 @@
+header {
+    background-color: #fff;
+    height: 12vh;
+    /* box-shadow: 0 5px 30px rgb(0 22 84 / 10%); */
+    padding: 17px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+header img {
+   width: 100%;
+   cursor: pointer;
+}
+header a {
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+    cursor: pointer;
+}
+header a:hover {
+    color: #27ae60;
+}
+header span {
+    width: 2px;
+    padding: 0px 6px;
+    background: #27ae60;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+}
+header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+header .button1 .btn1{
+    background-color: #6650bd;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+header .toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 1170px) {
+    header .button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        padding: 0;
+    }
+    header .container{
+        max-width: 90%;
+    }
+    header img {
+    margin: 20px auto;
+}
+    /* header .logo img {
+        margin: 20px auto;
+    } */
+    /* header .flex{
+        margin: 20px auto !important ;
+    } */
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        /* margin-top: 20px; */
+        /* background: transparent; */
+    }
+    header .toggle .btn3{
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+
+    header .small {
+        color: #000;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+        position: absolute;
+        top: 90px;
+        right: 10px;
+        width: 250px;
+        background-color: gray;
+        padding: 40px;
+        padding-top: 50px;
+        clip-path: polygon(89% 7%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 7%);
+    }
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: black;
+    }
+    header li a:hover {
+        color: yellow;
+    }
+    header .button .btn1{
+        background: transparent;
+    border: none;
+    font-size: 20px;
+    }
+}
+/* @media only screen and (max-width: 450px) {
+
+
+    header img {
+        width: 150px;
+    }
+} */

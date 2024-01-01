@@ -1,0 +1,88 @@
+.services-container{
+    margin: 90px auto;
+}
+.services-container .box{
+    display: flex;
+    gap:30px;
+}
+.services-container .box .left{
+    width: 30%;
+}
+.services-container .box .left .heading h2{
+   font-size: 30px;
+   margin-top: 10px;
+   text-align: center;
+   
+}
+
+.services-container .box .right{
+    width:70%;
+    display: flex;
+    gap: 20px;
+}
+.services-container .box .right .box1{
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 10px;
+    padding: 2rem 1.25rem;
+   
+}
+
+.services-container .box .right .box1 img{
+    display: flex;
+    margin: 0 auto;
+}
+.services-container .box .right .box1 h4{
+    text-align: center;
+    margin: 20px auto;
+    font-size:18px;
+}
+.services-container .box .right .box1 p{
+    text-align: center;
+    /* margin: 20px ; */
+    font-size: 14px;
+    color:#5F5F5F;
+}
+.services-container .box .right .box1:nth-child(even){
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:980px) {
+    .services-container .box{
+        flex-direction: column;
+    }
+    .services-container .box .left{
+        width: 100%;
+        text-align: center;
+    }
+    .services-container .box .left .heading h4{
+        text-align: center;
+
+     }
+     .services-container .box .right{
+        width:100%;
+        margin-top: 36px;
+        flex-direction: column;
+
+    }
+
+}

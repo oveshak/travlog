@@ -1,0 +1,124 @@
+.keys-container{
+    margin: 160px 0;
+}
+.keys-container .box{
+    display: flex;
+    gap: 60px;
+}
+.keys-container .box .left{
+    width: 50%;
+    margin-top: 40px;
+}
+.keys-container .box .left>div .heading h4{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.keys-container .box .left>div .heading h2{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.keys-container .box .left p{
+    font-size: 17px;
+    color:#5F5F5F
+}
+.keys-container .left .box2{
+    margin: 30px 0;
+}
+
+.keys-container .left .box2 .ci>div{
+    padding: 30px 40px ;
+    border: 1px solid #af9d99;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: flex;
+    gap: 20px;
+}
+.keys-container .left .box2 .ci>div:hover{
+
+    border: 1px solid #ff5722;
+    transition: .5s;
+   
+}
+.keys-container .left .box2 .ci>div img {
+    background-color: #ff5722;
+    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+}
+.keys-container .left .box2 .ci>div .ti h3{
+    font-size: 24px;
+   
+}
+.keys-container .left .box2 .ci>div .ti p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.keys-container .box .right{
+    width: 50%;
+}
+.keys-container .box .right img{
+    width: 100%;
+    right: 0;
+}
+
+
+@media only screen and (max-width:980px) {
+    .keys-container .box{
+       flex-direction: column;
+       
+    }
+    .keys-container .box .left{
+        width: 100%;
+    }
+    .keys-container .box .right{
+        width: 100%;
+    }
+    .keys-container .box .left>div .heading h4{
+        text-align: center;
+    }
+    .keys-container .box .left>div .heading h2{
+        text-align: center;
+    }
+    .keys-container .box .left p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .keys-container .left .box2 .ci>div .ti h3{
+        font-size: 20px;
+    }
+    .keys-container .left .box2 .ci>div .ti p {
+        font-size: 12px;
+        text-align: left;
+    }
+    
+.keys-container .left .box2 .ci>div img {
+    margin-top: 20px;
+}
+    
+}
